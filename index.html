@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Parcial</title>
+	<style>
+		.bontonu{
+			position: absolute;
+			top:5px;
+			left:1150px;
+			background: lightsteelblue;	    
+			width: 190px;
+			height: 75px;
+			border: solid;
+			border-radius: 90px;
+			box-sizing: border-box;
+		    padding-left: 65px;
+	        padding-top: 20px;
+	        color: black;
+	        font: 20px Georgia, Serif;
+		}
+		.botond{
+		position: absolute;
+		top: 5px;
+   		left: 30px;
+   		background:lightsteelblue;   	
+   		width:280px;
+   		height: 100px;
+   		border: solid;
+   		border-radius: 7px;
+   		padding-left: 70px;
+   		box-sizing: border-box;
+   		padding-top: 30px;
+   		color: black;
+   		font-size: 40px;
+		}
+
+		.tema{
+			position: absolute;
+			top: 515px;
+			left: 1050px;
+			background: lightsteelblue;
+			width: 300px;
+			height: 100px;
+			border: solid;
+			border-radius: 7px;
+			padding-left: 95px;
+   		    box-sizing: border-box;
+   		    padding-top: 30px;
+   		    color: black;
+   		    font-size: 40px;
+   		}
+   		.infou{
+   			position: absolute;
+			top: 150px;
+			left: 20px;
+			background: lightblue;
+			width: 950px;
+			height:390px;
+			border: solid;
+			border-radius: 8px;
+			border-color: lightgray;
+			padding-left: 50px;
+			padding-top: 10px;
+			color: black;
+			font: 23px Georgia, serif;
+			display: block;
+		}
+		.cerrar{
+			position: absolute;
+			top:290px;
+			left:380px;
+			background: floralwhite;	    
+			width: 190px;
+			height: 75px;
+			border: solid;
+			border-radius: 90px;
+			box-sizing: border-box;
+		    padding-left: 45px;
+	        padding-top: 20px;
+	        color: black;
+	        font: 25px Georgia, Serif;
+	        display: block;
+		}
+		.infod{
+			position: absolute;
+			top: 150px;
+			left: 22px;
+			background: lightblue;
+			width: 950px;
+			height:390px;
+			border: solid;
+			border-radius: 7px;
+			border-color: lightgray;
+			padding-left: 50px;
+			padding-top: 10px;
+			font: 25px Georgia, serif;
+			color: black;
+			display: block;
+		}
+		.cerrard{
+			position: absolute;
+			top:290px;
+			left:380px;
+			background: floralwhite;	    
+			width: 190px;
+			height: 75px;
+			border: solid;
+			border-radius: 85px;
+			box-sizing: border-box;
+		    padding-left: 50px;
+	        padding-top: 15px;
+	        color: black;
+	        font: 30px Georgia, Serif;
+	        display: block;
+		}
+		.audi{
+
+		}
+
+		
+	</style>
+</head>
+<body bgcolor="aliceblue">
+	<div class="bontonu" id="so" onclick="document.getElementById('jeje').play();">PLAY<audio class="aud" src="Jealo.mp3" id="jeje" onclick="document.getElementById('so').play();"></audio></div>
+	<div class="audi" id="musi" onclick="document.getElementById('so')"></div>
+	<div class="botond" id="tu" onclick="document.getElementById('cc').style.display='block'">Michael J</div>
+	<div class="tema" id="puup" onclick="document.getElementById('pup').style.display='block'">Abba</div>
+<div class="infod" id="pup" onclick="document.getElementById('puu').style.display='block'">ABBA es un grupo sueco de música pop, integrado por Agnetha Fältskog, Björn Ulvaeus, Benny Andersson y Anni-Frid Lyngstad. El nombre "ABBA" es un acrónimo formado por las primeras letras del nombre de cada miembro.<p>
+El cuarteto se formó en 1972, y logró la fama internacional al triunfar en el Festival de la Canción de Eurovisión 1974.Desde entonces, ABBA ha ganado popularidad empleando melodías pegadizas, letras simples y su sonido propio, caracterizado por las armonías de las voces femeninas y el wall of sound, un efecto musical creado por el productor Phil Spector.
+
+<div class="cerrard" id="puu" onclick="document.getElementById('pup').style.display='none'">Cerrar</div></div>
+
+	<div class="infou" id="cc" onclick="document.getElementById('tu').style.display='block'">Michael Joseph Jackson fue un cantante, compositor, productor, bailarín, actor y filántropo estadounidense. Conocido como el rey del pop,sus contribuciones y reconocimiento en la historia de la música y el baile durante más de cuatro décadas, así como su publicitada vida  personal, lo convirtieron en una figura internacional en la cultura popular.<p>
+	Comenzó su carrera artística a mediados de los años 1960 en la agrupación musical The Jackson 5, en la cual publicó, junto sus hermanos, diez álbumes hasta 1975. En 1971 inició su carrera como solista, aunque siguió perteneciendo al grupo. A principios de la década de 1980, Jackson se convirtió en una figura dominante en la música popular. Sus vídeos musicales, los más populares son "Beat It", "Billie Jean" y "Thriller".
+ <div class="cerrar" id="cr" onclick="document.getElementById('cc').style.display='none'">CERRAR</div></div>
+
+</body>
+</html>
+
